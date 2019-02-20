@@ -1,0 +1,13 @@
+%Loading the image
+imname = 'rectangle';
+inputfile = [imname, '.png'];
+A = imread(inputfile);
+
+%Checking the image dimensions
+[m,n] = size(A);
+disp(m)
+disp(n)
+
+for i = 1:n
+    sumA(:,i)
+end
